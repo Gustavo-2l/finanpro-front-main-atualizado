@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import mulher2 from "../assets/mulher2.png";
+import mulher2 from "../assets/mulher2.png"
 import Navbar from "../components/Navbar";
 import { useNavigate } from "react-router-dom"; // ← IMPORTANTE
 import { FaWhatsapp, FaInstagram } from "react-icons/fa";
