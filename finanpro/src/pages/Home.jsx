@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import HomeDevices from "../assets/home-devices.png";
+import homeDevices from "../assets/home-devices.png";
 import Navbar from "../components/Navbar";
 
 const Home = () => {
@@ -49,7 +49,7 @@ const Home = () => {
           transition={{ duration: 1 }}
         >
           <img
-            src={HomeDevices}
+            src={homeDevices}
             alt="Mockup FinanPro"
             className="
               w-[600px] lg:w-[700px] xl:w-[820px]
