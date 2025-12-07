@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import homeDevices from "../assets/home-devices.png"; // ajuste relativo ao arquivo Home.jsx
+import homeDevices from "../assets/home-devices.png";
 import Navbar from "../components/Navbar";
 
 const Home = () => {
