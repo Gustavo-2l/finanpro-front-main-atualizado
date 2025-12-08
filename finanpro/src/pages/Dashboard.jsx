@@ -30,7 +30,7 @@ export const Dashboard = () => {
   const [error, setError] = useState("");
 
   const token = localStorage.getItem("token");
-  const BASE_URL = "http://localhost:8000";
+  const BASE_URL = "https://finanpro-back-5.onrender.com";
 
   const fetchDashboard = async () => {
     try {

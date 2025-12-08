@@ -20,8 +20,9 @@ export function useApi() {
       return response.data;
 
     } catch (err) {
-      setError(err.response?.data || "Erro inesperado");
-      throw err; // permite tratar no componente se quiser
+      const backendError = err.response?.data || "Erro inesperado";
+      setError(backendError);
+      throw backendError;
     } finally {
       setLoading(false);
     }
