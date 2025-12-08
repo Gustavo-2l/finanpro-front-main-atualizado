@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://finanpro-back-6.onrender.com",
+  baseURL: "https://finanpro-back-7.onrender.com",
 });
 
 api.interceptors.request.use((config) => {

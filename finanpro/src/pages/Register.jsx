@@ -20,7 +20,7 @@ const Register = () => {
     }
 
     try {
-      const response = await fetch("https://finanpro-back-6.onrender.com/auth/register", {
+      const response = await fetch("https://finanpro-back-7.onrender.com/auth/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
