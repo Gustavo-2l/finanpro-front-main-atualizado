@@ -31,14 +31,8 @@ const Home = () => {
           <p className="text-lg text-gray-700 max-w-md mx-auto lg:mx-0 mb-8">
             Um jeito fácil e rápido de entender para onde vai o seu dinheiro e planejar o futuro.
           </p>
-          <motion.a
-            href="/login"
-            className="inline-block bg-yellow-500 text-black px-6 py-3 rounded-md font-bold shadow-lg hover:bg-yellow-600 transition"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            Comece Agora
-          </motion.a>
+
+          {/* Botão removido */}
         </motion.div>
 
         {/* Imagem */}
